@@ -1,0 +1,23 @@
+[EL Fine]: server: 2023-05-09 17:32:03.081--Thread(Thread[#1,main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2023-05-09 17:32:03.217--ServerSession(1256440269)--Thread(Thread[#1,main,5,main])--The access type for the persistent class [class modelo.Produto] is set to [FIELD].
+[EL Config]: metadata: 2023-05-09 17:32:03.234--ServerSession(1256440269)--Thread(Thread[#1,main,5,main])--The alias name for the entity class [class modelo.Produto] is being defaulted to: Produto.
+[EL Config]: metadata: 2023-05-09 17:32:03.235--ServerSession(1256440269)--Thread(Thread[#1,main,5,main])--The table name for entity [class modelo.Produto] is being defaulted to: PRODUTO.
+[EL Config]: metadata: 2023-05-09 17:32:03.244--ServerSession(1256440269)--Thread(Thread[#1,main,5,main])--The column name for element [preco] is being defaulted to: PRECO.
+[EL Config]: metadata: 2023-05-09 17:32:03.245--ServerSession(1256440269)--Thread(Thread[#1,main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2023-05-09 17:32:03.247--ServerSession(1256440269)--Thread(Thread[#1,main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Info]: 2023-05-09 17:32:03.326--ServerSession(1256440269)--Thread(Thread[#1,main,5,main])--EclipseLink, version: Eclipse Persistence Services - 4.0.1.v202302241130
+[EL Fine]: connection: 2023-05-09 17:32:03.563--Thread(Thread[#1,main,5,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQL10Platform
+[EL Fine]: connection: 2023-05-09 17:32:03.586--ServerSession(1256440269)--Connection(1263668904)--Thread(Thread[#1,main,5,main])--connecting(DatabaseLogin(
+	platform=>PostgreSQL10Platform
+	user name=> "postgres"
+	datasource URL=> "jdbc:postgresql://localhost:5432/loja"
+))
+[EL Config]: connection: 2023-05-09 17:32:03.653--ServerSession(1256440269)--Connection(370475881)--Thread(Thread[#1,main,5,main])--Connected: jdbc:postgresql://localhost:5432/loja
+	User: postgres
+	Database: PostgreSQL  Version: 13.2
+	Driver: PostgreSQL JDBC Driver  Version: 42.6.0
+[EL Fine]: connection: 2023-05-09 17:32:03.686--ServerSession(1256440269)--Thread(Thread[#1,main,5,main])--/file:/C:/Users/faust/Dropbox/aula-copratilhada/POB/Persistencia-MOR - novo/JPA-Loja/target/classes/_eclipselink-postgresql login successful
+[EL Fine]: sql: 2023-05-09 17:32:03.864--ServerSession(1256440269)--Connection(370475881)--Thread(Thread[#1,main,5,main])--SELECT ID, NOME, PRECO FROM PRODUTO ORDER BY ID
+[EL Fine]: connection: 2023-05-09 17:32:03.877--ServerSession(1256440269)--Connection(370475881)--Thread(Thread[#1,main,5,main])--disconnect
+[EL Fine]: connection: 2023-05-09 17:32:03.878--ServerSession(1256440269)--Thread(Thread[#1,main,5,main])--/file:/C:/Users/faust/Dropbox/aula-copratilhada/POB/Persistencia-MOR - novo/JPA-Loja/target/classes/_eclipselink-postgresql logout successful
+[EL Fine]: connection: 2023-05-09 17:32:03.878--ServerSession(1256440269)--Connection(1263668904)--Thread(Thread[#1,main,5,main])--disconnect
